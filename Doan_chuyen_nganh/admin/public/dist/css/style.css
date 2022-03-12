@@ -1,0 +1,223 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px auto;
+}
+.wrapper{
+    overflow: hidden;
+}
+.background{
+    background: linear-gradient(to bottom left,#9C7CA5,#FFB4A2);
+    overflow: hidden;
+}
+.login_form{
+    width: 35%;
+    height: 577px;
+    padding: 20px;
+    margin: 20px 420px;
+    border-radius: 1em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    background: white;
+    text-align: center;
+}
+.login_form_logo{
+    font-size: 60px; 
+    color: #333333;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 10% auto;
+}
+.sign{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+}
+.textbox{
+    width: 400px;
+    padding: 8px 0;
+    margin: 40px 40px;
+    font-size: 16px;
+    border: none;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(37, 37, 37, 0.24);
+}
+.textbox i {
+    float: left;
+    color: black;
+}
+.input{
+    width: 360px;
+    float: left;
+    margin: 0 8px;
+    outline: none;
+    background: none;
+    border: none;
+    color: black;
+}
+::placeholder{
+    color: black;
+}
+.btn_login{
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    display: block;
+    border: none;
+    margin: 10% auto;
+    border-radius: 25px;
+    background: #9C7CA5;
+    text-transform: capitalize;
+}
+.btn_login:hover{
+    outline: none;
+    border: none;
+    background: linear-gradient(#9C7CA5,#FFB4A2);
+    color: black;
+}
+.btn_login:active, .btn_login:visited{
+    outline: none;
+    border: none;
+}
+.error{
+    color: rgb(224, 42, 42);
+}
+
+/*trang amin*/
+/*navbar*/
+.nav{
+    min-height: 42px;
+    background-color: #9C7CA5;
+    display: flex;
+    justify-content: space-around;
+}
+.nav_list{
+    margin: 20px 10px;
+    padding-left: 0;
+}
+.nav_item{
+    margin: 0 10px;
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+.nav_item img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+/*nội dung bên trái*/
+.left{
+    float: left;
+    width: 250px;
+}
+.left_list{
+    list-style-type: none; 
+    margin-top: 1px;
+    margin-left: -40px;
+}
+.left_item{
+    background: #9C7CA5;
+    margin-top: 1px;
+    line-height: 50px;
+    text-align: center;
+}
+.left_item--a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.right{
+    float: left;
+    margin: 0 30px;
+}
+
+.td-button{
+    width: 300px;
+}
+
+.button{
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    background: #FFB4A2;
+}
+
+.button_add{
+    float: right;
+    margin: 20px 0;
+}
+
+
+.button_FD{
+    float: left;
+    margin: 10px 25px;
+}
+
+.button--a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.content{
+    width: 1030px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid rgb(92, 92, 182);
+}
+
+.content th,td{
+    height: 40px;
+    border: 1px inset black;
+}
+
+/*Them loai*/
+.form{
+    margin: 50px 70px;
+}
+
+.form_header{
+    text-align: center;
+}
+
+.form_group{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form_group-label{
+    float: left;
+    font-size: 17px;
+    width: 100px;
+    padding: 0 0;
+}
+
+.form_group-input{
+    margin-left: 10px;
+    min-width: 700px;
+    height: 20px;
+}
+
+.form_save{
+    width: 60px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 110px;
+    background: rgb(128, 202, 17);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}

@@ -1,0 +1,1 @@
+<img src="public/img/glasses_banner.jpg" width="100%" height="300px">
